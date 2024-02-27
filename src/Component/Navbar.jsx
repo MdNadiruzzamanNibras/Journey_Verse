@@ -17,7 +17,7 @@ const Navbar = () => {
   const router = useRouter();
   const isPathActive = (path) => {
     return router.pathname === path
-      ? "bg-black px-3 py-1 text-white rounded-lg"
+      ? "bg-red-500 px-3 py-1 text-white rounded-lg"
       : "";
   };
     return (
