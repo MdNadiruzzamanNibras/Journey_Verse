@@ -17,7 +17,7 @@ const Navbar = () => {
   const router = useRouter();
   const isPathActive = (path) => {
     return router.pathname === path
-      ? "bg-red-500 px-3 py-1 text-white rounded-lg"
+      ? "bg-black px-3 py-1 text-white rounded-lg"
       : "";
   };
     return (
@@ -49,8 +49,8 @@ const Navbar = () => {
               <li className={`ml-4 ${isPathActive("/contact")}`}>
                 <Link href="/contact">Contact</Link>
               </li>
-              <li className={`ml-4 ${isPathActive("/menu")}`}>
-                <Link href="/menu">Menu</Link>
+              <li className={`ml-4 ${isPathActive("/about")}`}>
+                <Link href="/about">About</Link>
               </li>
               
             </ul>
