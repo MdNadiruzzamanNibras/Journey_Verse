@@ -47,9 +47,9 @@ const LatestPost = () => {
                             
                             <div key={post.id} className='mx-3 text-center'>
                                 <Image src={post.image} alt="" />
-                                <p className='text-lg my-4'>TRAVEL</p>
+                                <p className='text-lg my-4 text-headline'>TRAVEL</p>
                                 <h3 className='text-3xl font-light'>Ten of our favourite sunglasses this season</h3>
-                                <p className='text-sm text-slate-400 mt-2 mb-10'>BY NICOLE CUNNINGHAM</p>
+                                <p className='text-sm text-byName mt-2 mb-10'>BY NICOLE CUNNINGHAM</p>
 
                         </div>    
                             )
