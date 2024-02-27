@@ -1,10 +1,12 @@
 import Banner from "@/Component/Home/Banner";
+import LatestPost from "@/Component/Home/LatestPost";
 
 
 const HomePage = () => {
   return (
     <div>
-     <Banner></Banner>
+      <Banner />
+      <LatestPost/>
     </div>
   );
 };
