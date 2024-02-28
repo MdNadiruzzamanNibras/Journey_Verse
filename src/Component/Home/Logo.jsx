@@ -8,20 +8,24 @@ import Image from "next/image"
 const Logo = () => {
     return (
         <div className="container mx-auto my-10">
-            <div className="flex justify-between items-center">
-                <div >
+            <div className="flex justify-between items-center mx-8">
+                <div className="hover:opacity-45 cursor-pointer">
                 <Image src={outdoor5 }  alt="logo"/>
                 </div>
-                <div >
+                               <div className="hover:opacity-45 cursor-pointer">
+
                 <Image src={travel }  alt="logo"/>
                 </div>
-                <div >
+                                <div className="hover:opacity-45 cursor-pointer">
+
                 <Image src={outdoor2 }  alt="logo"/>
                 </div>
-                <div >
+                                <div className="hover:opacity-45 cursor-pointer">
+
                 <Image src={magazine}  alt="logo"/>
                 </div>
-                <div >
+                                <div className="hover:opacity-45 cursor-pointer">
+
                 <Image src={mountain }  alt="logo"/>
                 </div>
                 

@@ -12,7 +12,8 @@ module.exports = {
     extend: {
       colors: {
         headline: "#cfac9f",
-        byName:"#ababab"
+        byName: "#ababab",
+        ashen: "#878787"
       }
     },
   },

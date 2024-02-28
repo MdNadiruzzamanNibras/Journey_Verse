@@ -2,6 +2,7 @@ import Banner from "@/Component/Home/Banner";
 import LatestBlog from "@/Component/Home/LatestBlog";
 import LatestPost from "@/Component/Home/LatestPost";
 import Logo from "@/Component/Home/Logo";
+import TravelTips from "@/Component/Home/TravelTips";
 
 
 const HomePage = () => {
@@ -9,7 +10,8 @@ const HomePage = () => {
     <div>
       
       <Banner />
-      <Logo/>
+      <Logo />
+      <TravelTips/>
       <LatestPost />
       <LatestBlog/>
     </div>
