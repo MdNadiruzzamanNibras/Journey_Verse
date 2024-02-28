@@ -13,9 +13,9 @@ const Feedback = () => {
                     <p className="text-ashen text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam 
                         ...</p>
                     <div style={{ fontFamily: "Cormorant Garamond, serif" }} className="flex  pt-6 justify-between items-center">
-                        <input type="text" placeholder="Name" className="focus:outline-none rounded text-xl pl-2 mr-5
+                        <input type="text" placeholder="Name" className="focus:outline-none rounded text-lg pl-2 mr-3
     py-2 text-ashen font-light"/> 
-                        <input type="text" placeholder="E-mail" className="focus:outline-none rounded text-xl pl-2 mr-5
+                        <input type="text" placeholder="E-mail" className="focus:outline-none rounded text-lg pl-2 mr-3
     py-2 text-ashen font-light"/> 
                         <button className="bg-green-900 flex hover:opacity-50 justify-center rounded-lg items-center text-white text-lg w-40 h-10"><span className="">subscribe</span><span className="ml-2 "><ImArrowUpRight2 /></span></button>
                     </div>
