@@ -26,7 +26,7 @@ const TravelTips = () => {
             <div className="lg:flex mt-16 lg:justify-center lg:items-center">
                 
                 <div className="lg:w-[600px] ">
-                    <h4 className="text-3xl font-extrabold font-serif ">MOVING TROUGH: THE EVERYDAY URBAN JUNGLE OF YOUR CITY</h4> 
+                    <h4 className="text-3xl font-extrabold font-serif ">TOP HIKING TRAILS IN THE PERUVIAN AMAZON RAIN FOREST</h4> 
                     <p className="text-ashen text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam 
                         ...</p>
                     <button className="flex my-5 items-center"><span className="text-xl font-bold">Read More</span> <span className="ml-2"><ImArrowUpRight2 /></span></button>

@@ -29,7 +29,7 @@ const LatestBlog = () => {
                                 <Image src={post.image} alt="" />
                                 <p className='text-lg my-4 text-headline'>TRAVEL</p>
                                 <h3 className='text-5xl font-medium'>Ten of our favourite sunglasses this season</h3>
-                                <p className='lg:mx-28 my-7 text-slate-300'>K accum san pericula usu an, in pri dolorum denique. Cu movet debitis cum. Vix paulo evertitur cu, conceptam constituam te his, meis euismod</p>
+                                <p className='lg:mx-28 my-7 text-ashen'>K accum san pericula usu an, in pri dolorum denique. Cu movet debitis cum. Vix paulo evertitur cu, conceptam constituam te his, meis euismod</p>
                                 <p className='text-sm text-byName mt-2 mb-10'>BY NICOLE CUNNINGHAM</p>
 
                         </div>    

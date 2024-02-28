@@ -1,4 +1,5 @@
 import Banner from "@/Component/Home/Banner";
+import Feedback from "@/Component/Home/Feedback";
 import LatestBlog from "@/Component/Home/LatestBlog";
 import LatestPost from "@/Component/Home/LatestPost";
 import Logo from "@/Component/Home/Logo";
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Logo />
       <TravelTips/>
       <LatestPost />
+      <Feedback/>
       <LatestBlog/>
     </div>
   );

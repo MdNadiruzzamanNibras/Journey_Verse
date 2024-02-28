@@ -13,7 +13,8 @@ module.exports = {
       colors: {
         headline: "#cfac9f",
         byName: "#ababab",
-        ashen: "#878787"
+        ashen: "#878787",
+        grayadd: "#EDEAE1"
       }
     },
   },
